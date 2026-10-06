@@ -1,0 +1,48 @@
+# ==========================================================
+# PARS ISO - TEMEL PAKET LİSTESİ
+# ==========================================================
+
+# --- TEMEL SİSTEM ---
+base
+base-devel
+linux
+linux-firmware
+linux-headers
+btrfs-progs
+grub
+efibootmgr
+
+# --- PARS PAKET YÖNETİCİSİ (SENİN GURURUN) ---
+pars
+
+# --- SİSTEM ARAÇLARI ---
+networkmanager
+sudo
+vim
+nano
+wget
+curl
+git
+arch-install-scripts
+
+# --- DOSYA SİSTEMİ DESTEĞİ ---
+dosfstools
+exfatprogs
+f2fs-tools
+ntfs-3g
+
+# --- GÜVENLİK ---
+gnupg
+openssl
+
+# --- BAŞLANGIÇ İÇİN MASAÜSTÜ (İsteğe bağlı) ---
+# xorg
+# xf86-video-vesa
+# xfce4
+# lightdm
+# lightdm-gtk-greeter
+
+# --- PARS'A ÖZGÜ ARAÇLAR (İleride eklenecek) ---
+# pars-snapshot-manager
+# pars-welcome
+syslinux
